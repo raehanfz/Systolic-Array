@@ -9,7 +9,22 @@ This project focuses on a fundamental Systolic Array design, complete with proce
 ## Project Structure
 
 The project is organized into the following main directories and files:
-SystolicArray/ ├── out/ │ ├── tb_systolic_array.v.out # Simulation output log │ └── tb_wave.vcd # Value Change Dump (VCD) file for waveform analysis ├── pic/ │ ├── Device.png # Visual representation of the device in Vivado │ ├── time summary.png # Vivado Time Summary report │ ├── utilization table.png # Vivado Resource Utilization report │ └── Waveform.webp # Waveform visualization from simulation ├── src/ │ ├── pe.v # Processing Element (PE) module │ ├── systolic_array.v # Top-level Systolic Array module │ └── tb_systolic_array.v # Testbench for the Systolic Array ├── file.xdc # Xilinx Design Constraints file (if used for synthesis) ├── LICENSE # Project license (e.g., MIT, Apache 2.0) └── README.md # This README file
+SystolicArray/
+ ├── out/
+ │ ├── tb_systolic_array.v.out # Simulation output log 
+ │ └── tb_wave.vcd # Value Change Dump (VCD) file for waveform analysis 
+ ├── pic/ 
+ │ ├── Device.png # Visual representation of the device in Vivado 
+ │ ├── time summary.png # Vivado Time Summary report 
+ │ ├── utilization table.png # Vivado Resource Utilization report 
+ │ └── Waveform.webp # Waveform visualization from simulation 
+ ├── src/ 
+ │ ├── pe.v # Processing Element (PE) module 
+ │ ├── systolic_array.v # Top-level Systolic Array module 
+ │ └── tb_systolic_array.v # Testbench for the Systolic Array 
+ ├── file.xdc # Xilinx Design Constraints file (if used for synthesis) 
+ ├── LICENSE # Project license (e.g., MIT, Apache 2.0) 
+ └── README.md # This README file
 
 ## Features
 
